@@ -1,0 +1,16 @@
+PODS:
+  - KKProtocolManager (0.1.0)
+
+DEPENDENCIES:
+  - KKProtocolManager (from `../`)
+
+EXTERNAL SOURCES:
+  KKProtocolManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKProtocolManager: 3cc73a83d9fab3294488005545ed6d2aae9be4ad
+
+PODFILE CHECKSUM: 2f5c8a256459bfd52f2d674dc290a362627ddbee
+
+COCOAPODS: 1.5.3

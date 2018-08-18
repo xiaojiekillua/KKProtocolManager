@@ -1,0 +1,23 @@
+{
+  "name": "KKProtocolManager",
+  "version": "0.1.0",
+  "summary": "KKProtocolManager is a test project.",
+  "description": "KKProtocolManager is a test project.",
+  "homepage": "https://github.com/xiaojiekillua/KKProtocolManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaojiekillua": "lujie.lin@ukelink.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaojiekillua/KKProtocolManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KKProtocolManager/Classes/**/*",
+  "public_header_files": "KKProtocolManager/Classes/**/*.h"
+}

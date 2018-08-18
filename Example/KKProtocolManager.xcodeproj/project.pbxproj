@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		281991B43E570A6E348F1777 /* Pods-KKProtocolManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKProtocolManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKProtocolManager_Tests/Pods-KKProtocolManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		353E09B8A962896CE0CA6944 /* Pods-KKProtocolManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKProtocolManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKProtocolManager_Example/Pods-KKProtocolManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3CC81FA23A66FDD3EBC3FD68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3CC81FA23A66FDD3EBC3FD68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4392C9CBB05A7F2B564BAA13 /* Pods_KKProtocolManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKProtocolManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* KKProtocolManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKProtocolManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		6EB7B4D8D2E811ACF9CF562C /* Pods-KKProtocolManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKProtocolManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKProtocolManager_Example/Pods-KKProtocolManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E89E42546DEE0031E085050 /* KKProtocolManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KKProtocolManager.podspec; path = ../KKProtocolManager.podspec; sourceTree = "<group>"; };
+		8E89E42546DEE0031E085050 /* KKProtocolManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKProtocolManager.podspec; path = ../KKProtocolManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD223A4A4A614ED8EB065DA0 /* Pods-KKProtocolManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKProtocolManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKProtocolManager_Tests/Pods-KKProtocolManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BEA1E1258683D09BE4B4F261 /* Pods_KKProtocolManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKProtocolManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA9A6CDBCDD6901531A9F049 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EA9A6CDBCDD6901531A9F049 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -488,6 +488,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKProtocolManager/KKProtocolManager-Prefix.pch";
 				INFOPLIST_FILE = "KKProtocolManager/KKProtocolManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +504,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKProtocolManager/KKProtocolManager-Prefix.pch";
 				INFOPLIST_FILE = "KKProtocolManager/KKProtocolManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

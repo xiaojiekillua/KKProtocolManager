@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC61F79F9FDD42AE37FC47533CB84AD /* Pods-KKProtocolManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC7A211AFF58F81EDBBFB3077AD4B8B /* Pods-KKProtocolManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13CFA334BAD7358AB4E7FF39CADFC719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		40F3F1CE042121E9283288741FF1775F /* ATest.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B443D0499C6CDF796FC07AF35B2714 /* ATest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83A0305863F30C03C1D595ED273B792F /* KKProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDA46FAD16AB7B797ABAFB419F6101F /* KKProtocolManager-dummy.m */; };
+		8550AAD736524D89161F82E820194DFB /* ATest.m in Sources */ = {isa = PBXBuildFile; fileRef = D838A6DF0D447C4364BAC1BC4FACF2AD /* ATest.m */; };
+		C96871D5312CF40ACD5A1BBCD852302E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CA900A760C5FF6D0F5C0FF156E47371E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CE94B4985BA323F7F89EA335619BB218 /* KKProtocolManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7819310C08A893F17FDBD1A234CE021A /* KKProtocolManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D900DB3DAA9E07FCDA40195B70C5A62A /* Pods-KKProtocolManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF72125B2801AEDFB0AC5CE82EB4CE3 /* Pods-KKProtocolManager_Example-dummy.m */; };
+		DE7D2E518CA6F2F2BF037F1998D239EA /* Pods-KKProtocolManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A9A2001941B2A6C4009C139638BAF4 /* Pods-KKProtocolManager_Tests-dummy.m */; };
+		F2CA3EB21F4B34F001E915E52EBC5B13 /* Pods-KKProtocolManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B8155140030150EA99E046A0F3E102 /* Pods-KKProtocolManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A58814A7B28268D19A6B77742AC7899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DD8AF77371658AA40088DB7B8B1342C;
+			remoteInfo = KKProtocolManager;
+		};
+		C0B79C7DFBB8E40C4856D75D6490559F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D03B0F284A4BFE02B0A545F35E43D754;
+			remoteInfo = "Pods-KKProtocolManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B8155140030150EA99E046A0F3E102 /* Pods-KKProtocolManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKProtocolManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		061C7B3630F6DAE98BBCCC2625B4040E /* Pods-KKProtocolManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKProtocolManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		087B992DCB19E1524FA7D796DD8DD025 /* Pods-KKProtocolManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKProtocolManager_Example-resources.sh"; sourceTree = "<group>"; };
+		0EC7A211AFF58F81EDBBFB3077AD4B8B /* Pods-KKProtocolManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKProtocolManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		0F31BF6439E7C1419BF85D642645B45F /* Pods-KKProtocolManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKProtocolManager_Tests.modulemap"; sourceTree = "<group>"; };
+		1686545A9E0F7A0A49DDD03E98135788 /* Pods-KKProtocolManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKProtocolManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		169F1BC22F4F6A279FB925206912D1FD /* Pods-KKProtocolManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKProtocolManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FFAAAA64108A73F073660380F66B4A9 /* Pods-KKProtocolManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKProtocolManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28B4F7878E887DF800B7DC8CB7B02BC5 /* KKProtocolManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKProtocolManager.framework; path = KKProtocolManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBE1F4B89E5EE3F40326B9A244A5C8E /* Pods-KKProtocolManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKProtocolManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E21A3B221C94C4A6F4AA0157F10904B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2EA083CB6D3EDBB9E3C5A903A86FB2B3 /* Pods_KKProtocolManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKProtocolManager_Tests.framework; path = "Pods-KKProtocolManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3551523AD6CBFC09CDAD31B324D1ED4A /* Pods-KKProtocolManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKProtocolManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		382E19B6112C44F188C35C860D2686A4 /* KKProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKProtocolManager-prefix.pch"; sourceTree = "<group>"; };
+		3DF72125B2801AEDFB0AC5CE82EB4CE3 /* Pods-KKProtocolManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKProtocolManager_Example-dummy.m"; sourceTree = "<group>"; };
+		50B443D0499C6CDF796FC07AF35B2714 /* ATest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATest.h; path = KKProtocolManager/Classes/ATest.h; sourceTree = "<group>"; };
+		55DB1DEBD0D9EAF10431BE31F24A43FC /* KKProtocolManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKProtocolManager.modulemap; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61C2D944265E526C16FCD0B5CA9E89BB /* Pods-KKProtocolManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKProtocolManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6EDA11CBFCE4C0E6A21455AEB666670A /* Pods-KKProtocolManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKProtocolManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7819310C08A893F17FDBD1A234CE021A /* KKProtocolManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKProtocolManager-umbrella.h"; sourceTree = "<group>"; };
+		7BDA46FAD16AB7B797ABAFB419F6101F /* KKProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKProtocolManager-dummy.m"; sourceTree = "<group>"; };
+		8802FCD0043CFB2CC745D2B8CEC3CEDD /* Pods-KKProtocolManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKProtocolManager_Example.modulemap"; sourceTree = "<group>"; };
+		8B59786A2155AECD6AD11F3756EB1A65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A9A2001941B2A6C4009C139638BAF4 /* Pods-KKProtocolManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKProtocolManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6565F282838F1069E81943AA49D074B /* KKProtocolManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KKProtocolManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C046EC10809A7A034D00AF37857FD080 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C2063DD53B6A475E3F745F2ADFC1321D /* Pods-KKProtocolManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKProtocolManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CCE583BA9156A9983035B7BAA88CD992 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09BDBA136543A64D8E187988FC2D77B /* Pods-KKProtocolManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKProtocolManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		D2E83ACED0F8AADC22327BD283031758 /* KKProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKProtocolManager.xcconfig; sourceTree = "<group>"; };
+		D62CD15DF4516218652790115A26E5D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D838A6DF0D447C4364BAC1BC4FACF2AD /* ATest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ATest.m; path = KKProtocolManager/Classes/ATest.m; sourceTree = "<group>"; };
+		E507A7548E84A97B57839059CBC51F84 /* Pods-KKProtocolManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKProtocolManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F85C873B93DDAFE72166A1B73E18ACDD /* Pods_KKProtocolManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKProtocolManager_Example.framework; path = "Pods-KKProtocolManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C9D743959C278AC4EA43DE40675D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96871D5312CF40ACD5A1BBCD852302E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800DABD4F9035F37AB0051550C9FAB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA900A760C5FF6D0F5C0FF156E47371E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BC9E79D4C363DF885834E97CB40C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CFA334BAD7358AB4E7FF39CADFC719 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		053190C6B489E5C70198127EDF2DB714 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AD145B64A5C4FE00E8AD1BE63EE4969 /* KKProtocolManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0AD145B64A5C4FE00E8AD1BE63EE4969 /* KKProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				50B443D0499C6CDF796FC07AF35B2714 /* ATest.h */,
+				D838A6DF0D447C4364BAC1BC4FACF2AD /* ATest.m */,
+				999130294E3FDF9F93E338A3E126AEAD /* Pod */,
+				993BC35330A8FA4343F8CD503F9963D2 /* Support Files */,
+			);
+			name = KKProtocolManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0B0EA2DF78540D9813F7D9AD76CD36D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28B4F7878E887DF800B7DC8CB7B02BC5 /* KKProtocolManager.framework */,
+				F85C873B93DDAFE72166A1B73E18ACDD /* Pods_KKProtocolManager_Example.framework */,
+				2EA083CB6D3EDBB9E3C5A903A86FB2B3 /* Pods_KKProtocolManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				053190C6B489E5C70198127EDF2DB714 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0B0EA2DF78540D9813F7D9AD76CD36D2 /* Products */,
+				CFCBAD6785C09D163A0ADDBD604187B0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		993BC35330A8FA4343F8CD503F9963D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D62CD15DF4516218652790115A26E5D3 /* Info.plist */,
+				55DB1DEBD0D9EAF10431BE31F24A43FC /* KKProtocolManager.modulemap */,
+				D2E83ACED0F8AADC22327BD283031758 /* KKProtocolManager.xcconfig */,
+				7BDA46FAD16AB7B797ABAFB419F6101F /* KKProtocolManager-dummy.m */,
+				382E19B6112C44F188C35C860D2686A4 /* KKProtocolManager-prefix.pch */,
+				7819310C08A893F17FDBD1A234CE021A /* KKProtocolManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KKProtocolManager";
+			sourceTree = "<group>";
+		};
+		999130294E3FDF9F93E338A3E126AEAD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A6565F282838F1069E81943AA49D074B /* KKProtocolManager.podspec */,
+				2E21A3B221C94C4A6F4AA0157F10904B /* LICENSE */,
+				C046EC10809A7A034D00AF37857FD080 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9AA1706A9389EAB717DA48CE1382AD85 /* Pods-KKProtocolManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8B59786A2155AECD6AD11F3756EB1A65 /* Info.plist */,
+				8802FCD0043CFB2CC745D2B8CEC3CEDD /* Pods-KKProtocolManager_Example.modulemap */,
+				1FFAAAA64108A73F073660380F66B4A9 /* Pods-KKProtocolManager_Example-acknowledgements.markdown */,
+				169F1BC22F4F6A279FB925206912D1FD /* Pods-KKProtocolManager_Example-acknowledgements.plist */,
+				3DF72125B2801AEDFB0AC5CE82EB4CE3 /* Pods-KKProtocolManager_Example-dummy.m */,
+				3551523AD6CBFC09CDAD31B324D1ED4A /* Pods-KKProtocolManager_Example-frameworks.sh */,
+				087B992DCB19E1524FA7D796DD8DD025 /* Pods-KKProtocolManager_Example-resources.sh */,
+				0EC7A211AFF58F81EDBBFB3077AD4B8B /* Pods-KKProtocolManager_Example-umbrella.h */,
+				6EDA11CBFCE4C0E6A21455AEB666670A /* Pods-KKProtocolManager_Example.debug.xcconfig */,
+				C2063DD53B6A475E3F745F2ADFC1321D /* Pods-KKProtocolManager_Example.release.xcconfig */,
+			);
+			name = "Pods-KKProtocolManager_Example";
+			path = "Target Support Files/Pods-KKProtocolManager_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFCBAD6785C09D163A0ADDBD604187B0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA1706A9389EAB717DA48CE1382AD85 /* Pods-KKProtocolManager_Example */,
+				DD061F7A8647BD205177919822FEDB67 /* Pods-KKProtocolManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DD061F7A8647BD205177919822FEDB67 /* Pods-KKProtocolManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCE583BA9156A9983035B7BAA88CD992 /* Info.plist */,
+				0F31BF6439E7C1419BF85D642645B45F /* Pods-KKProtocolManager_Tests.modulemap */,
+				61C2D944265E526C16FCD0B5CA9E89BB /* Pods-KKProtocolManager_Tests-acknowledgements.markdown */,
+				061C7B3630F6DAE98BBCCC2625B4040E /* Pods-KKProtocolManager_Tests-acknowledgements.plist */,
+				92A9A2001941B2A6C4009C139638BAF4 /* Pods-KKProtocolManager_Tests-dummy.m */,
+				E507A7548E84A97B57839059CBC51F84 /* Pods-KKProtocolManager_Tests-frameworks.sh */,
+				D09BDBA136543A64D8E187988FC2D77B /* Pods-KKProtocolManager_Tests-resources.sh */,
+				04B8155140030150EA99E046A0F3E102 /* Pods-KKProtocolManager_Tests-umbrella.h */,
+				2CBE1F4B89E5EE3F40326B9A244A5C8E /* Pods-KKProtocolManager_Tests.debug.xcconfig */,
+				1686545A9E0F7A0A49DDD03E98135788 /* Pods-KKProtocolManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-KKProtocolManager_Tests";
+			path = "Target Support Files/Pods-KKProtocolManager_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44FF66EFBAF30E260019B7473E38D32B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2CA3EB21F4B34F001E915E52EBC5B13 /* Pods-KKProtocolManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92766E172FFBFC518223ECBC644B502D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F3F1CE042121E9283288741FF1775F /* ATest.h in Headers */,
+				CE94B4985BA323F7F89EA335619BB218 /* KKProtocolManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5745F823C7DD27B9BDE3E9AD0BD8B9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC61F79F9FDD42AE37FC47533CB84AD /* Pods-KKProtocolManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6DD8AF77371658AA40088DB7B8B1342C /* KKProtocolManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0A93077D3E5FBDDBBA09B7D093398C /* Build configuration list for PBXNativeTarget "KKProtocolManager" */;
+			buildPhases = (
+				25855E752F847CFD4288C6FF2F5AF4DB /* Sources */,
+				17C9D743959C278AC4EA43DE40675D4F /* Frameworks */,
+				92766E172FFBFC518223ECBC644B502D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKProtocolManager;
+			productName = KKProtocolManager;
+			productReference = 28B4F7878E887DF800B7DC8CB7B02BC5 /* KKProtocolManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D03B0F284A4BFE02B0A545F35E43D754 /* Pods-KKProtocolManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32163FE6E4053B565A56CFB08146310A /* Build configuration list for PBXNativeTarget "Pods-KKProtocolManager_Example" */;
+			buildPhases = (
+				A3FF5A4EC4AA6E7D37BF11225CE8D941 /* Sources */,
+				800DABD4F9035F37AB0051550C9FAB52 /* Frameworks */,
+				E5745F823C7DD27B9BDE3E9AD0BD8B9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD48B1FFBB32DB590CFC6A5741B5BD7E /* PBXTargetDependency */,
+			);
+			name = "Pods-KKProtocolManager_Example";
+			productName = "Pods-KKProtocolManager_Example";
+			productReference = F85C873B93DDAFE72166A1B73E18ACDD /* Pods_KKProtocolManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC9E9FB37D5C42D08D53EEDAE7604C27 /* Pods-KKProtocolManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688F92C409C8E4CEDF9F786329C3CCC4 /* Build configuration list for PBXNativeTarget "Pods-KKProtocolManager_Tests" */;
+			buildPhases = (
+				F16E4E6E0A1BF54F5D2E86948912B0D4 /* Sources */,
+				C8BC9E79D4C363DF885834E97CB40C32 /* Frameworks */,
+				44FF66EFBAF30E260019B7473E38D32B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091350C600F1BEA540CBAA3D328F5A3F /* PBXTargetDependency */,
+			);
+			name = "Pods-KKProtocolManager_Tests";
+			productName = "Pods-KKProtocolManager_Tests";
+			productReference = 2EA083CB6D3EDBB9E3C5A903A86FB2B3 /* Pods_KKProtocolManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0B0EA2DF78540D9813F7D9AD76CD36D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DD8AF77371658AA40088DB7B8B1342C /* KKProtocolManager */,
+				D03B0F284A4BFE02B0A545F35E43D754 /* Pods-KKProtocolManager_Example */,
+				EC9E9FB37D5C42D08D53EEDAE7604C27 /* Pods-KKProtocolManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25855E752F847CFD4288C6FF2F5AF4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8550AAD736524D89161F82E820194DFB /* ATest.m in Sources */,
+				83A0305863F30C03C1D595ED273B792F /* KKProtocolManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FF5A4EC4AA6E7D37BF11225CE8D941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D900DB3DAA9E07FCDA40195B70C5A62A /* Pods-KKProtocolManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16E4E6E0A1BF54F5D2E86948912B0D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7D2E518CA6F2F2BF037F1998D239EA /* Pods-KKProtocolManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		091350C600F1BEA540CBAA3D328F5A3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KKProtocolManager_Example";
+			target = D03B0F284A4BFE02B0A545F35E43D754 /* Pods-KKProtocolManager_Example */;
+			targetProxy = C0B79C7DFBB8E40C4856D75D6490559F /* PBXContainerItemProxy */;
+		};
+		DD48B1FFBB32DB590CFC6A5741B5BD7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KKProtocolManager;
+			target = 6DD8AF77371658AA40088DB7B8B1342C /* KKProtocolManager */;
+			targetProxy = 0A58814A7B28268D19A6B77742AC7899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D0820FADEAEE0DDDBC0EA002C76EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E83ACED0F8AADC22327BD283031758 /* KKProtocolManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKProtocolManager/KKProtocolManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKProtocolManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKProtocolManager/KKProtocolManager.modulemap";
+				PRODUCT_MODULE_NAME = KKProtocolManager;
+				PRODUCT_NAME = KKProtocolManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04336017A515E313D2C1EF1E7B152AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDA11CBFCE4C0E6A21455AEB666670A /* Pods-KKProtocolManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKProtocolManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKProtocolManager_Example/Pods-KKProtocolManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C42B1536144756C1873E8501ED76255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBE1F4B89E5EE3F40326B9A244A5C8E /* Pods-KKProtocolManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKProtocolManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKProtocolManager_Tests/Pods-KKProtocolManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C993E5E9D9A3DF62A3A08FCB1D09FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2063DD53B6A475E3F745F2ADFC1321D /* Pods-KKProtocolManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKProtocolManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKProtocolManager_Example/Pods-KKProtocolManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E74F6E9D9A7F6E3B24FE142E8E6DA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E83ACED0F8AADC22327BD283031758 /* KKProtocolManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKProtocolManager/KKProtocolManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKProtocolManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKProtocolManager/KKProtocolManager.modulemap";
+				PRODUCT_MODULE_NAME = KKProtocolManager;
+				PRODUCT_NAME = KKProtocolManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4A0C90637A3C80161FF96FCB7AFDB1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1686545A9E0F7A0A49DDD03E98135788 /* Pods-KKProtocolManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKProtocolManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKProtocolManager_Tests/Pods-KKProtocolManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32163FE6E4053B565A56CFB08146310A /* Build configuration list for PBXNativeTarget "Pods-KKProtocolManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04336017A515E313D2C1EF1E7B152AB1 /* Debug */,
+				2C993E5E9D9A3DF62A3A08FCB1D09FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0A93077D3E5FBDDBBA09B7D093398C /* Build configuration list for PBXNativeTarget "KKProtocolManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D0820FADEAEE0DDDBC0EA002C76EBD /* Debug */,
+				3E74F6E9D9A7F6E3B24FE142E8E6DA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		688F92C409C8E4CEDF9F786329C3CCC4 /* Build configuration list for PBXNativeTarget "Pods-KKProtocolManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C42B1536144756C1873E8501ED76255 /* Debug */,
+				A4A0C90637A3C80161FF96FCB7AFDB1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

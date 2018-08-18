@@ -1,0 +1,6 @@
+framework module KKProtocolManager {
+  umbrella header "KKProtocolManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
