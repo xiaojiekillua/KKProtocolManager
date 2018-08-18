@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KKProtocolManager_Example' do
+  pod 'KKProtocolManager', :path => '../'
+
+  target 'KKProtocolManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
